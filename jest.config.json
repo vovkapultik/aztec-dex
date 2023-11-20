@@ -1,0 +1,9 @@
+{
+  "preset": "ts-jest/presets/default-esm",
+  "moduleNameMapper": {
+    "^(\\.{1,2}/.*)\\.js$": "$1"
+  },
+  "testRegex": "./test/.*\\.test\\.ts$",
+  "rootDir": "./test",
+  "testTimeout": 50000
+}
